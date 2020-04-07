@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
+
+
+body {
+    background-color: black;
+    font-family: 'Courier Prime', serif;
+    font-size: 14px;
+    color: yellowgreen;
+}
+
+#artistGif {
+    position: absolute;
+}
+
+#lyricContainer {
+    position: absolute;
+    color: yellowgreen;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+#gif {
+    position: fixed;
+    bottom: 25px;
+    left: 380px;
+    z-index: 1;
+}
+
+#artistGif2 {
+    position: absolute;
+    top: 450px;
+}
+
+#artistGif3 {
+    position: absolute;
+    top: 700px;
+}
